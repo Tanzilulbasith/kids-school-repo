@@ -140,7 +140,7 @@ body {
 
 .curriculum {
   padding: 2rem;
-  background: #fff;
+  background: none;
   text-align: center;
 }
 
@@ -179,7 +179,60 @@ body {
 .card-link {
   display: inline-block;
   margin-top: 1rem;
-  color: #2196f3;
+  color: #1571bd;
   text-decoration: none;
+  cursor: pointer;
+}
+#card-1 {
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+  }
+
+  #card-2 {
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background:  linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    }  
+
+#card-3 {
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+#card-li1 {
+  color: rgb(100, 200, 255);
+}
+#card-li2 {
+  color:rgb(240, 170, 0) ;
 }
 
+#card-li3 {
+  color: rgb(135, 0, 255);
+}
+.previous-next-btn a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(254, 163, 1);
+  padding: 15px 25px;
+  border-radius: 30px;
+  margin: 20px 0px 20px 0px;
+}
+.previous-round {
+  font-size: 2.2rem;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+}
+.next-round {
+  font-size: 2.2rem;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+}
+a:hover {
+  background-color: rgb(212, 158, 65);
+
+}
